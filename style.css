@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: aquamarine
+}
+
+.main-game {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticTacToe {
+    display: grid;
+    grid-template-areas: 'element1 element2 element3' 'element4 element5 element6' 'element7 element8 element9';
+    gap: 10px;
+    border: 1px solid white;
+    background-color: white;
+    width: 700px;
+    height: 700px
+}
+
+.element {
+    border: 1px solid black;
+}
+
+.cross {
+    width: auto;
+    height: auto;
+    background-image: url('cross.JPG');
+    background-size: cover;
+    background-position: center;
+}
+
+.circle {
+    width: auto;
+    height: auto;
+    background-image: url('circle.JPG');
+    background-size: cover;
+    background-position: center;
+}
